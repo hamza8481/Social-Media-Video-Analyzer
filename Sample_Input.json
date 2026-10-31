@@ -1,0 +1,15 @@
+{
+  "id": 1234567890,
+  "title": "Minimalist Ceramic Coffee Mug",
+  "body_html": "<p>Enjoy your morning brew in this beautiful, hand-crafted ceramic mug. Matte finish, dishwasher safe.</p>",
+  "status": "active",
+  "variants": [
+    {
+      "price": "24.99"
+    }
+  ],
+  "image": {
+    "src": "https://example.com/mug_image.jpg"
+  },
+  "handle": "minimalist-ceramic-coffee-mug"
+}

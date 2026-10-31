@@ -1,0 +1,12 @@
+Setup and Deployment Instructions
+
+1. Import the Workflow: Upload AI_Product_Video_Generator.json to your n8n instance.
+2. Connect Credentials:
+   a. Shopify: Add an access token for your store.
+   b. AI Services: Add API keys for the image analysis and video generation nodes.
+   c. Social Posting Tool: Add your API key to publish to social networks.
+   d. Google Sheets: Connect OAuth2 to log video links.
+   e. Gmail: Connect OAuth2 to send error alerts.
+3. Configuration:
+   a. Open the Store settings node and enter your store URL, email, and preferred video style.
+   b. Create a Google Sheet with columns: date, product, network, status, link, and note. Update the Google Sheets nodes with this document ID.

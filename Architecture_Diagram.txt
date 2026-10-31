@@ -1,0 +1,25 @@
+TRIGGER
+[Shopify: New Product Added]
+       |
+       v
+FILTERING
+[Check if product is active and has a photo]
+       |
+       v
+[Skip previously processed products]
+       |
+       v
+AI PROCESSING
+[AI: Analyze photo and write video prompt]
+       |
+       v
+[AI Video: Render 8-second vertical video]
+       |
+       v
+SOCIAL MEDIA PUBLISHING
+[Social Tool: Upload and post to TikTok, Reels, Shorts]
+       |
+       v
+LOGGING AND ALERTS
+(If Success) ---> [Google Sheets: Log video link]
+(If Failure) ---> [Google Sheets: Log error] ---> [Gmail: Send alert]
